@@ -25,6 +25,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.example.flutter_omr"
     compileSdkVersion 31
     ndkVersion "23.1.7779620"
 
